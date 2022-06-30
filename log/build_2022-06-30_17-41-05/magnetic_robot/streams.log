@@ -1,0 +1,22 @@
+[0.671s] Invoking command in '/home/legacy/magnetic_arm/src/magnetic_robot': PYTHONPATH=/home/legacy/magnetic_arm/install/magnetic_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/magnetic_robot build --build-base /home/legacy/magnetic_arm/build/magnetic_robot/build install --prefix /home/legacy/magnetic_arm/install/magnetic_robot --record /home/legacy/magnetic_arm/build/magnetic_robot/install.log --single-version-externally-managed
+[0.900s] running egg_info
+[0.900s] writing ../../build/magnetic_robot/magnetic_robot.egg-info/PKG-INFO
+[0.900s] writing dependency_links to ../../build/magnetic_robot/magnetic_robot.egg-info/dependency_links.txt
+[0.900s] writing entry points to ../../build/magnetic_robot/magnetic_robot.egg-info/entry_points.txt
+[0.900s] writing requirements to ../../build/magnetic_robot/magnetic_robot.egg-info/requires.txt
+[0.901s] writing top-level names to ../../build/magnetic_robot/magnetic_robot.egg-info/top_level.txt
+[0.931s] reading manifest file '../../build/magnetic_robot/magnetic_robot.egg-info/SOURCES.txt'
+[0.932s] writing manifest file '../../build/magnetic_robot/magnetic_robot.egg-info/SOURCES.txt'
+[0.932s] running build
+[0.932s] running build_py
+[0.932s] running install
+[0.933s] running install_lib
+[0.934s] running install_data
+[0.935s] copying config/controller.yaml -> /home/legacy/magnetic_arm/install/magnetic_robot/share/magnetic_robot/config
+[0.935s] running install_egg_info
+[0.936s] removing '/home/legacy/magnetic_arm/install/magnetic_robot/lib/python3.8/site-packages/magnetic_robot-0.0.0-py3.8.egg-info' (and everything under it)
+[0.937s] Copying ../../build/magnetic_robot/magnetic_robot.egg-info to /home/legacy/magnetic_arm/install/magnetic_robot/lib/python3.8/site-packages/magnetic_robot-0.0.0-py3.8.egg-info
+[0.937s] running install_scripts
+[0.951s] Installing position_controller script to /home/legacy/magnetic_arm/install/magnetic_robot/lib/magnetic_robot
+[0.952s] writing list of installed files to '/home/legacy/magnetic_arm/build/magnetic_robot/install.log'
+[0.969s] Invoked command in '/home/legacy/magnetic_arm/src/magnetic_robot' returned '0': PYTHONPATH=/home/legacy/magnetic_arm/install/magnetic_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/magnetic_robot build --build-base /home/legacy/magnetic_arm/build/magnetic_robot/build install --prefix /home/legacy/magnetic_arm/install/magnetic_robot --record /home/legacy/magnetic_arm/build/magnetic_robot/install.log --single-version-externally-managed
