@@ -37,7 +37,7 @@ def generate_launch_description():
 
     # Get URDF via xacro
 
-    urdf_file_name = 'Magnetic_robot.urdf'
+    urdf_file_name = 'Magnetic_robot_effort.urdf'
     urdf = os.path.join(
         get_package_share_directory('magnetic_robot'),
         'urdf',

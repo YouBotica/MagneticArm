@@ -1,3 +1,0 @@
-[console_scripts]
-position_controller = magnetic_robot.position_controller:main
-
