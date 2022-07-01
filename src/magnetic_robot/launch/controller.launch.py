@@ -23,9 +23,9 @@ def generate_launch_description():
     pkg_share = FindPackageShare(package=package_name).find(package_name)
     pkg_gazebo_ros = FindPackageShare(package='gazebo_ros').find('gazebo_ros') 
 
-    #world_file_path = 'world.world'
-    #world = LaunchConfiguration('world')
-    #world_path = os.path.join(pkg_share, 'worlds',  world_file_path)
+    world_file_path = 'sim_world.world'
+    world = LaunchConfiguration('world')
+    world_path = os.path.join(pkg_share, 'worlds',  world_file_path)
 
     declare_use_sim_time_cmd = DeclareLaunchArgument(
         name='use_sim_time',
@@ -86,43 +86,43 @@ def generate_launch_description():
                     "-entity", robot_name_in_model,
                     "-x", '0.0',
                     "-y", '0.0',
-                    "-z", '0.01',
+                    "-z", '0.0',
                     "-Y", '0.0']
     )
 
-    # Controller node:
-    controller_node = Node(
-        package='magnetic_robot',
-        executable='position_controller',       
-        output='screen',
-        #parameters=[{'use_sim_time': use_sim_time}],
-        )
     
-    load_joint_state_controller = ExecuteProcess(
-        cmd=['ros2', 'control', 'load_controller', '--set-state', 'start',
-             'joint_state_broadcaster'],
-        output='screen',
-    )
-
-    load_joint_trajectory_controller = ExecuteProcess(
-        cmd=['ros2', 'control', 'load_controller', '--set-state', 'start',
-             'joint_trajectory_controller'],
-        output='screen',
-
-    )
 
     gazebo = ExecuteProcess(
-        cmd=['gazebo', '--verbose', '-s', 'libgazebo_ros_factory.so', 
+        cmd=['gazebo', world_path, '--verbose', '-s', 'libgazebo_ros_factory.so', 
         '-s', 'libgazebo_ros_init.so'], output='screen',
         )
+    
+    joint_state_broadcaster_spawner = Node(
+        package="controller_manager",
+        executable="spawner.py",
+        arguments=["joint_state_broadcaster",
+                   "--controller-manager", "/controller_manager"],
+        parameters=[{'use_sim_time': use_sim_time}]
+    )
+
+    robot_controller_spawner = Node(
+        package="controller_manager",
+        executable="spawner.py",
+        arguments=["joint_trajectory_controller", "-c", "/controller_manager"],
+        parameters=[{'use_sim_time': use_sim_time}]
+    )
 
      
     return LaunchDescription([
-    declare_use_sim_time_cmd,
-    robot_state_publisher_node,
-    load_joint_state_controller,
-    load_joint_trajectory_controller,
-    controller_node,
-    gazebo,
-    spawn,
-])
+        RegisterEventHandler(
+            event_handler=OnProcessExit(
+                target_action=joint_state_broadcaster_spawner,
+                on_exit=[robot_controller_spawner],
+            )
+        ),
+        declare_use_sim_time_cmd,
+        robot_state_publisher_node,
+        gazebo,
+        spawn, 
+        joint_state_broadcaster_spawner      
+        ])

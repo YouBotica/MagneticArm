@@ -8,6 +8,7 @@
 /home/legacy/magnetic_arm/install/magnetic_robot/share/magnetic_robot/urdf/Magnetic_robot.urdf.xacro
 /home/legacy/magnetic_arm/install/magnetic_robot/share/magnetic_robot/launch/gazebo.launch.py
 /home/legacy/magnetic_arm/install/magnetic_robot/share/magnetic_robot/launch/display.launch.py
+/home/legacy/magnetic_arm/install/magnetic_robot/share/magnetic_robot/launch/move.launch.py
 /home/legacy/magnetic_arm/install/magnetic_robot/share/magnetic_robot/launch/controller.launch.py
 /home/legacy/magnetic_arm/install/magnetic_robot/share/magnetic_robot/meshes/link_3.STL
 /home/legacy/magnetic_arm/install/magnetic_robot/share/magnetic_robot/meshes/link_2.STL
@@ -16,7 +17,9 @@
 /home/legacy/magnetic_arm/install/magnetic_robot/share/magnetic_robot/meshes/link_1.STL
 /home/legacy/magnetic_arm/install/magnetic_robot/share/magnetic_robot/meshes/link_4.STL
 /home/legacy/magnetic_arm/install/magnetic_robot/share/magnetic_robot/meshes/base_link.STL
+/home/legacy/magnetic_arm/install/magnetic_robot/share/magnetic_robot/config/trajectory_params.yaml
 /home/legacy/magnetic_arm/install/magnetic_robot/share/magnetic_robot/config/controller.yaml
+/home/legacy/magnetic_arm/install/magnetic_robot/share/magnetic_robot/worlds/sim_world.world
 /home/legacy/magnetic_arm/install/magnetic_robot/lib/python3.8/site-packages/magnetic_robot-0.0.0-py3.8.egg-info/PKG-INFO
 /home/legacy/magnetic_arm/install/magnetic_robot/lib/python3.8/site-packages/magnetic_robot-0.0.0-py3.8.egg-info/top_level.txt
 /home/legacy/magnetic_arm/install/magnetic_robot/lib/python3.8/site-packages/magnetic_robot-0.0.0-py3.8.egg-info/zip-safe

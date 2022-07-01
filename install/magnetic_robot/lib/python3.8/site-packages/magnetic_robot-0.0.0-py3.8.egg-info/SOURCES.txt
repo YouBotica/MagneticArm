@@ -9,9 +9,11 @@ setup.py
 ../../build/magnetic_robot/magnetic_robot.egg-info/top_level.txt
 ../../build/magnetic_robot/magnetic_robot.egg-info/zip-safe
 config/controller.yaml
+config/trajectory_params.yaml
 launch/controller.launch.py
 launch/display.launch.py
 launch/gazebo.launch.py
+launch/move.launch.py
 magnetic_robot/__init__.py
 magnetic_robot/position_controller.py
 meshes/base_link.STL
@@ -27,3 +29,4 @@ test/test_flake8.py
 test/test_pep257.py
 urdf/Magnetic_robot.urdf
 urdf/Magnetic_robot.urdf.xacro
+worlds/sim_world.world

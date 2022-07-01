@@ -45,12 +45,20 @@
   </link>
 
   <gazebo reference="base_link">
-    <mu1>200</mu1>
-    <mu2>200</mu2>
+  <selfCollide>true</selfCollide>
+    <mu1>0.1</mu1>
+    <mu2>0.1</mu2>
     <kp>100000000</kp>
-    <kd>10</kd>
+    <kd>0.1</kd>
     <material>Gazebo/Gray</material>
   </gazebo>  
+
+  <link name="world"/>
+  <joint name="world_joint" type="fixed">
+    <parent link="world" />
+    <child link = "base_link" />
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+  </joint>
 
   <link
     name="link_1">
@@ -95,8 +103,8 @@
 
   <gazebo reference="link_1">
     <selfCollide>true</selfCollide>
-    <mu1>200</mu1>
-    <mu2>200</mu2>
+    <mu1>0.1</mu1>
+    <mu2>0.1</mu2>
     <kp>1000000</kp>
     <kd>0.1</kd>
     <material>Gazebo/Gray</material>
@@ -164,10 +172,10 @@
 
   <gazebo reference="link_2">
     <selfCollide>true</selfCollide>
-    <mu1>200</mu1>
-    <mu2>200</mu2>
+    <mu1>0.1</mu1>
+    <mu2>0.1</mu2>
     <kp>1000000</kp>
-    <kd>0.1</kd>
+    <kd>1000</kd>
     <material>Gazebo/Gray</material>
   </gazebo>  
 
