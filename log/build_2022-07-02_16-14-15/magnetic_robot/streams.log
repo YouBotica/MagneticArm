@@ -1,0 +1,27 @@
+[2.323s] Invoking command in '/home/legacy/magnetic_arm/src/magnetic_robot': PYTHONPATH=/home/legacy/magnetic_arm/install/magnetic_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/magnetic_robot build --build-base /home/legacy/magnetic_arm/build/magnetic_robot/build install --prefix /home/legacy/magnetic_arm/install/magnetic_robot --record /home/legacy/magnetic_arm/build/magnetic_robot/install.log --single-version-externally-managed
+[2.697s] /home/legacy/.local/lib/python3.8/site-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.698s]   warnings.warn(
+[2.698s] /home/legacy/.local/lib/python3.8/site-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[2.698s]   warnings.warn(
+[3.519s] running egg_info
+[3.600s] writing ../../build/magnetic_robot/magnetic_robot.egg-info/PKG-INFO
+[3.665s] writing dependency_links to ../../build/magnetic_robot/magnetic_robot.egg-info/dependency_links.txt
+[3.858s] writing entry points to ../../build/magnetic_robot/magnetic_robot.egg-info/entry_points.txt
+[3.985s] writing requirements to ../../build/magnetic_robot/magnetic_robot.egg-info/requires.txt
+[4.047s] writing top-level names to ../../build/magnetic_robot/magnetic_robot.egg-info/top_level.txt
+[4.149s] reading manifest file '../../build/magnetic_robot/magnetic_robot.egg-info/SOURCES.txt'
+[4.151s] writing manifest file '../../build/magnetic_robot/magnetic_robot.egg-info/SOURCES.txt'
+[4.151s] running build
+[4.152s] running build_py
+[4.152s] running install
+[4.152s] /home/legacy/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.152s]   warnings.warn(
+[4.159s] running install_lib
+[4.249s] running install_data
+[4.268s] running install_egg_info
+[4.349s] removing '/home/legacy/magnetic_arm/install/magnetic_robot/lib/python3.8/site-packages/magnetic_robot-0.0.0-py3.8.egg-info' (and everything under it)
+[4.351s] Copying ../../build/magnetic_robot/magnetic_robot.egg-info to /home/legacy/magnetic_arm/install/magnetic_robot/lib/python3.8/site-packages/magnetic_robot-0.0.0-py3.8.egg-info
+[4.352s] running install_scripts
+[4.513s] Installing position_controller script to /home/legacy/magnetic_arm/install/magnetic_robot/lib/magnetic_robot
+[4.513s] writing list of installed files to '/home/legacy/magnetic_arm/build/magnetic_robot/install.log'
+[4.553s] Invoked command in '/home/legacy/magnetic_arm/src/magnetic_robot' returned '0': PYTHONPATH=/home/legacy/magnetic_arm/install/magnetic_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/magnetic_robot build --build-base /home/legacy/magnetic_arm/build/magnetic_robot/build install --prefix /home/legacy/magnetic_arm/install/magnetic_robot --record /home/legacy/magnetic_arm/build/magnetic_robot/install.log --single-version-externally-managed

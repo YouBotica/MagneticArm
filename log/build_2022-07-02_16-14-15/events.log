@@ -1,0 +1,77 @@
+[0.000000] (-) TimerEvent: {}
+[0.000113] (magnetic_robot) JobQueued: {'identifier': 'magnetic_robot', 'dependencies': OrderedDict()}
+[0.000562] (magnetic_robot) JobStarted: {'identifier': 'magnetic_robot'}
+[0.099840] (-) TimerEvent: {}
+[0.200246] (-) TimerEvent: {}
+[0.300518] (-) TimerEvent: {}
+[0.400812] (-) TimerEvent: {}
+[0.501111] (-) TimerEvent: {}
+[0.601376] (-) TimerEvent: {}
+[0.701730] (-) TimerEvent: {}
+[0.801989] (-) TimerEvent: {}
+[0.902251] (-) TimerEvent: {}
+[1.002590] (-) TimerEvent: {}
+[1.102965] (-) TimerEvent: {}
+[1.203219] (-) TimerEvent: {}
+[1.303472] (-) TimerEvent: {}
+[1.403691] (-) TimerEvent: {}
+[1.503944] (-) TimerEvent: {}
+[1.604196] (-) TimerEvent: {}
+[1.704451] (-) TimerEvent: {}
+[1.804710] (-) TimerEvent: {}
+[1.904956] (-) TimerEvent: {}
+[2.005187] (-) TimerEvent: {}
+[2.105445] (-) TimerEvent: {}
+[2.205787] (-) TimerEvent: {}
+[2.306062] (-) TimerEvent: {}
+[2.322385] (magnetic_robot) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/magnetic_robot', 'build', '--build-base', '/home/legacy/magnetic_arm/build/magnetic_robot/build', 'install', '--prefix', '/home/legacy/magnetic_arm/install/magnetic_robot', '--record', '/home/legacy/magnetic_arm/build/magnetic_robot/install.log', '--single-version-externally-managed'], 'cwd': '/home/legacy/magnetic_arm/src/magnetic_robot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'legacy', 'LC_TIME': 'es_CO.UTF-8', 'SSH_AGENT_PID': '2788', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/legacy', 'OLDPWD': '/home/legacy', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'HOMEBREW_PREFIX': '/home/linuxbrew/.linuxbrew', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_CO.UTF-8', 'MANAGERPID': '1536', 'HOMEBREW_SHELLENV_PREFIX': '/home/linuxbrew/.linuxbrew', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '1', 'INFOPATH': '/home/linuxbrew/.linuxbrew/share/info:', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'legacy', '_': '/usr/bin/colcon', 'JOURNAL_STREAM': '8:68201', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'legacy', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/legacy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/legacy-TUF-GAMING-FX504GM-FX80GM:@/tmp/.ICE-unix/2815,unix/legacy-TUF-GAMING-FX504GM-FX80GM:/tmp/.ICE-unix/2815', 'INVOCATION_ID': '39379dc7bccc46b6ad40c5be14d4ff6a', 'HOMEBREW_CELLAR': '/home/linuxbrew/.linuxbrew/Cellar', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_CO.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f64cee26_ff94_4bed_a590_579267e60046', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_CO.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.108', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'es_CO.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_CO.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'es_CO.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/legacy/magnetic_arm/build/magnetic_robot', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/legacy/magnetic_arm/install/magnetic_robot/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'HOMEBREW_REPOSITORY': '/home/linuxbrew/.linuxbrew/Homebrew', 'LC_NUMERIC': 'es_CO.UTF-8', 'LC_PAPER': 'es_CO.UTF-8', 'COLCON': '1', 'MANPATH': '/home/linuxbrew/.linuxbrew/share/man:', 'VTE_VERSION': '6003'}, 'shell': False}
+[2.406239] (-) TimerEvent: {}
+[2.506616] (-) TimerEvent: {}
+[2.606891] (-) TimerEvent: {}
+[2.697658] (magnetic_robot) StderrLine: {'line': b"/home/legacy/.local/lib/python3.8/site-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[2.697939] (magnetic_robot) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.698140] (magnetic_robot) StderrLine: {'line': b"/home/legacy/.local/lib/python3.8/site-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead\n"}
+[2.698236] (magnetic_robot) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.706991] (-) TimerEvent: {}
+[2.807235] (-) TimerEvent: {}
+[2.907515] (-) TimerEvent: {}
+[3.007797] (-) TimerEvent: {}
+[3.108071] (-) TimerEvent: {}
+[3.208337] (-) TimerEvent: {}
+[3.308605] (-) TimerEvent: {}
+[3.408877] (-) TimerEvent: {}
+[3.509119] (-) TimerEvent: {}
+[3.519924] (magnetic_robot) StdoutLine: {'line': b'running egg_info\n'}
+[3.600714] (magnetic_robot) StdoutLine: {'line': b'writing ../../build/magnetic_robot/magnetic_robot.egg-info/PKG-INFO\n'}
+[3.609227] (-) TimerEvent: {}
+[3.665859] (magnetic_robot) StdoutLine: {'line': b'writing dependency_links to ../../build/magnetic_robot/magnetic_robot.egg-info/dependency_links.txt\n'}
+[3.709349] (-) TimerEvent: {}
+[3.809582] (-) TimerEvent: {}
+[3.858522] (magnetic_robot) StdoutLine: {'line': b'writing entry points to ../../build/magnetic_robot/magnetic_robot.egg-info/entry_points.txt\n'}
+[3.909704] (-) TimerEvent: {}
+[3.985245] (magnetic_robot) StdoutLine: {'line': b'writing requirements to ../../build/magnetic_robot/magnetic_robot.egg-info/requires.txt\n'}
+[4.009822] (-) TimerEvent: {}
+[4.047336] (magnetic_robot) StdoutLine: {'line': b'writing top-level names to ../../build/magnetic_robot/magnetic_robot.egg-info/top_level.txt\n'}
+[4.109946] (-) TimerEvent: {}
+[4.149805] (magnetic_robot) StdoutLine: {'line': b"reading manifest file '../../build/magnetic_robot/magnetic_robot.egg-info/SOURCES.txt'\n"}
+[4.151507] (magnetic_robot) StdoutLine: {'line': b"writing manifest file '../../build/magnetic_robot/magnetic_robot.egg-info/SOURCES.txt'\n"}
+[4.151815] (magnetic_robot) StdoutLine: {'line': b'running build\n'}
+[4.151989] (magnetic_robot) StdoutLine: {'line': b'running build_py\n'}
+[4.152232] (magnetic_robot) StdoutLine: {'line': b'running install\n'}
+[4.152494] (magnetic_robot) StderrLine: {'line': b'/home/legacy/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.152663] (magnetic_robot) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.159469] (magnetic_robot) StdoutLine: {'line': b'running install_lib\n'}
+[4.210076] (-) TimerEvent: {}
+[4.249777] (magnetic_robot) StdoutLine: {'line': b'running install_data\n'}
+[4.268579] (magnetic_robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.310147] (-) TimerEvent: {}
+[4.349679] (magnetic_robot) StdoutLine: {'line': b"removing '/home/legacy/magnetic_arm/install/magnetic_robot/lib/python3.8/site-packages/magnetic_robot-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[4.350988] (magnetic_robot) StdoutLine: {'line': b'Copying ../../build/magnetic_robot/magnetic_robot.egg-info to /home/legacy/magnetic_arm/install/magnetic_robot/lib/python3.8/site-packages/magnetic_robot-0.0.0-py3.8.egg-info\n'}
+[4.352315] (magnetic_robot) StdoutLine: {'line': b'running install_scripts\n'}
+[4.410237] (-) TimerEvent: {}
+[4.510507] (-) TimerEvent: {}
+[4.513197] (magnetic_robot) StdoutLine: {'line': b'Installing position_controller script to /home/legacy/magnetic_arm/install/magnetic_robot/lib/magnetic_robot\n'}
+[4.513511] (magnetic_robot) StdoutLine: {'line': b"writing list of installed files to '/home/legacy/magnetic_arm/build/magnetic_robot/install.log'\n"}
+[4.553021] (magnetic_robot) CommandEnded: {'returncode': 0}
+[4.581924] (magnetic_robot) JobEnded: {'identifier': 'magnetic_robot', 'rc': 0}
+[4.582559] (-) EventReactorShutdown: {}
