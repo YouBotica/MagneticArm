@@ -1,0 +1,66 @@
+/home/legacy/.local/lib/python3.8/site-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+/home/legacy/.local/lib/python3.8/site-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+  warnings.warn(
+running egg_info
+creating ../../build/magnetic_robot/magnetic_robot.egg-info
+writing ../../build/magnetic_robot/magnetic_robot.egg-info/PKG-INFO
+writing dependency_links to ../../build/magnetic_robot/magnetic_robot.egg-info/dependency_links.txt
+writing entry points to ../../build/magnetic_robot/magnetic_robot.egg-info/entry_points.txt
+writing requirements to ../../build/magnetic_robot/magnetic_robot.egg-info/requires.txt
+writing top-level names to ../../build/magnetic_robot/magnetic_robot.egg-info/top_level.txt
+writing manifest file '../../build/magnetic_robot/magnetic_robot.egg-info/SOURCES.txt'
+reading manifest file '../../build/magnetic_robot/magnetic_robot.egg-info/SOURCES.txt'
+writing manifest file '../../build/magnetic_robot/magnetic_robot.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/legacy/magnetic_arm/build/magnetic_robot/build
+creating /home/legacy/magnetic_arm/build/magnetic_robot/build/lib
+creating /home/legacy/magnetic_arm/build/magnetic_robot/build/lib/magnetic_robot
+copying magnetic_robot/__init__.py -> /home/legacy/magnetic_arm/build/magnetic_robot/build/lib/magnetic_robot
+copying magnetic_robot/position_controller.py -> /home/legacy/magnetic_arm/build/magnetic_robot/build/lib/magnetic_robot
+running install
+/home/legacy/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/legacy/magnetic_arm/install/magnetic_robot/lib/python3.8/site-packages/magnetic_robot
+copying /home/legacy/magnetic_arm/build/magnetic_robot/build/lib/magnetic_robot/__init__.py -> /home/legacy/magnetic_arm/install/magnetic_robot/lib/python3.8/site-packages/magnetic_robot
+copying /home/legacy/magnetic_arm/build/magnetic_robot/build/lib/magnetic_robot/position_controller.py -> /home/legacy/magnetic_arm/install/magnetic_robot/lib/python3.8/site-packages/magnetic_robot
+byte-compiling /home/legacy/magnetic_arm/install/magnetic_robot/lib/python3.8/site-packages/magnetic_robot/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/legacy/magnetic_arm/install/magnetic_robot/lib/python3.8/site-packages/magnetic_robot/position_controller.py to position_controller.cpython-38.pyc
+running install_data
+creating /home/legacy/magnetic_arm/install/magnetic_robot/share/ament_index
+creating /home/legacy/magnetic_arm/install/magnetic_robot/share/ament_index/resource_index
+creating /home/legacy/magnetic_arm/install/magnetic_robot/share/ament_index/resource_index/packages
+copying resource/magnetic_robot -> /home/legacy/magnetic_arm/install/magnetic_robot/share/ament_index/resource_index/packages
+copying package.xml -> /home/legacy/magnetic_arm/install/magnetic_robot/share/magnetic_robot
+creating /home/legacy/magnetic_arm/install/magnetic_robot/share/magnetic_robot/urdf
+copying urdf/Magnetic_robot.urdf -> /home/legacy/magnetic_arm/install/magnetic_robot/share/magnetic_robot/urdf
+copying urdf/Magnetic_robot.urdf.xacro -> /home/legacy/magnetic_arm/install/magnetic_robot/share/magnetic_robot/urdf
+copying urdf/Magnetic_robot_effort.urdf -> /home/legacy/magnetic_arm/install/magnetic_robot/share/magnetic_robot/urdf
+creating /home/legacy/magnetic_arm/install/magnetic_robot/share/magnetic_robot/launch
+copying launch/spawn.launch.py -> /home/legacy/magnetic_arm/install/magnetic_robot/share/magnetic_robot/launch
+copying launch/effort_controller.launch.py -> /home/legacy/magnetic_arm/install/magnetic_robot/share/magnetic_robot/launch
+copying launch/gazebo.launch.py -> /home/legacy/magnetic_arm/install/magnetic_robot/share/magnetic_robot/launch
+copying launch/display.launch.py -> /home/legacy/magnetic_arm/install/magnetic_robot/share/magnetic_robot/launch
+copying launch/move.launch.py -> /home/legacy/magnetic_arm/install/magnetic_robot/share/magnetic_robot/launch
+copying launch/controller.launch.py -> /home/legacy/magnetic_arm/install/magnetic_robot/share/magnetic_robot/launch
+creating /home/legacy/magnetic_arm/install/magnetic_robot/share/magnetic_robot/meshes
+copying meshes/link_3.STL -> /home/legacy/magnetic_arm/install/magnetic_robot/share/magnetic_robot/meshes
+copying meshes/link_2.STL -> /home/legacy/magnetic_arm/install/magnetic_robot/share/magnetic_robot/meshes
+copying meshes/link_6.STL -> /home/legacy/magnetic_arm/install/magnetic_robot/share/magnetic_robot/meshes
+copying meshes/link_5.STL -> /home/legacy/magnetic_arm/install/magnetic_robot/share/magnetic_robot/meshes
+copying meshes/link_1.STL -> /home/legacy/magnetic_arm/install/magnetic_robot/share/magnetic_robot/meshes
+copying meshes/link_4.STL -> /home/legacy/magnetic_arm/install/magnetic_robot/share/magnetic_robot/meshes
+copying meshes/base_link.STL -> /home/legacy/magnetic_arm/install/magnetic_robot/share/magnetic_robot/meshes
+creating /home/legacy/magnetic_arm/install/magnetic_robot/share/magnetic_robot/config
+copying config/trajectory_params.yaml -> /home/legacy/magnetic_arm/install/magnetic_robot/share/magnetic_robot/config
+copying config/effort_controller.yaml -> /home/legacy/magnetic_arm/install/magnetic_robot/share/magnetic_robot/config
+copying config/controller.yaml -> /home/legacy/magnetic_arm/install/magnetic_robot/share/magnetic_robot/config
+creating /home/legacy/magnetic_arm/install/magnetic_robot/share/magnetic_robot/worlds
+copying worlds/sim_world.world -> /home/legacy/magnetic_arm/install/magnetic_robot/share/magnetic_robot/worlds
+running install_egg_info
+Copying ../../build/magnetic_robot/magnetic_robot.egg-info to /home/legacy/magnetic_arm/install/magnetic_robot/lib/python3.8/site-packages/magnetic_robot-0.0.0-py3.8.egg-info
+running install_scripts
+Installing position_controller script to /home/legacy/magnetic_arm/install/magnetic_robot/lib/magnetic_robot
+writing list of installed files to '/home/legacy/magnetic_arm/build/magnetic_robot/install.log'
